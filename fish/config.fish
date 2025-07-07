@@ -10,3 +10,9 @@ if status is-interactive
         echo -en "\e]133;A\e\\"
     end
 end
+
+alias pamcan pacman
+alias ls 'eza --icons'
+alias ll='eza --icons -la'
+alias la='eza --icons -a'
+alias clear "printf '\033[2J\033[3J\033[1;1H'"
