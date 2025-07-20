@@ -16,3 +16,5 @@ alias ls 'eza --icons'
 alias ll='eza --icons -la'
 alias la='eza --icons -a'
 alias clear "printf '\033[2J\033[3J\033[1;1H'"
+# Created by `pipx` on 2025-07-07 13:36:38
+set PATH $PATH /home/f10k1/.local/bin
