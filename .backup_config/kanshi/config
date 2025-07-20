@@ -1,0 +1,22 @@
+
+profile docked {
+    output "eDP-1" {
+        disable
+    }
+    output "HDMI-A-1" {
+        mode 3440x1440@99.98Hz
+        position 0,0
+        scale 1.0
+    }
+}
+
+profile undocked {
+    output "eDP-1" {
+        mode 1920x1080@240Hz
+        position 0,0
+        scale 1.0
+    }
+    output "HDMI-A-1" {
+        disable
+    }
+}
